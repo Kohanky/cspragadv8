@@ -3,4 +3,4 @@ python:
   - "3.5"
 cache: pip
 script:
-  - python test_rpn.py
+  - make test
