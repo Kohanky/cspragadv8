@@ -31,7 +31,9 @@ def calculate(myarg):
     return stack.pop()
 
 def dummy():
-    print("I'm here to lower your coverage!")
+    while True:
+        result = calculate("3 3 %")
+        print("I'm here to lower your coverage!")
 
 def main():
     while True:
